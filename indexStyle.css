@@ -158,6 +158,7 @@ div p span {
 }
 .timeline ul li div {
   box-sizing: border-box;
+  box-shadow: 5px 5px 5px #E0E0E0;
   position: relative;
   bottom: 0;
   width: 400px;
@@ -185,7 +186,7 @@ div p span {
 }
 .timeline ul li:nth-child(even) div {
   box-sizing: border-box;
-  left: -439px;
+  left: -339px;
 }
 
 .timeline ul li:nth-child(even) div::before {
@@ -391,9 +392,4 @@ time {
   }
   .timeline ul li.in-view div {
     width: 220px;
-}
-div.jobhist {
-  box-shadow: 5px 5px 5px #E8E8E8;
-
-
 }
