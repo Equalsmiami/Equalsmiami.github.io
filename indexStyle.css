@@ -17,7 +17,6 @@ html {
 #mainpic {
   display: block;
   position: inherit;
-  opacity: .7;
   height: 100px;
   width: 100px;
   margin-left: auto;
@@ -29,7 +28,7 @@ html {
   display: block;
   position: relative;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   background-color: white;
 }
@@ -64,7 +63,7 @@ div h5 {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: 300px;
   width: 100%
   list-style-type: none;
   /*border-bottom: 1px solid #DEDEDE;*/
@@ -76,7 +75,7 @@ div h5 {
     margin-top: 100px;
     margin-left: 60px;
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 16px;
     list-style-type: none;
 }
     #box2 {
@@ -106,8 +105,6 @@ div ul li a:visited {
 }
 div ul li a:hover {
   color: #99e4ff;
-  font-size: 26px;
-  font-style: italic;
 
 }
 #ipsum {
@@ -133,7 +130,7 @@ div p span {
 }
 .date, .jobtype {
   font-family: 'Raleway', sans-serif;
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 800;
   font-style: normal;
   color: black;
@@ -164,7 +161,7 @@ div p span {
   position: relative;
   bottom: 0;
   width: 400px;
-  padding: 15px;
+  padding: 8px;
   background: #99e4ff;
 }
 .timeline ul li div::before {
@@ -199,7 +196,7 @@ div p span {
 }
 .timeline {
   box-sizing: border-box;
-  background-color: white;
+
 }
 .timeline ul li::after {
   box-sizing: border-box;
@@ -231,6 +228,7 @@ div p span {
 
 .timeline ul li.in-view div {
   box-sizing: border-box;
+  width: 300px;
   transform: none;
   visibility: visible;
   opacity: 1;
@@ -252,24 +250,16 @@ div p span {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-#preview_1 {
-  height: 95%;
-  width: 85%;
+.preview {
+  height: 551px;
+  width: 100%;
+  box-shadow: 5px 5px 5px #D8D8D8;
 }
-#preview_2 {
-  height: 95%;
-  width: 85%;
-}
-#preview_3 {
-  height:95%;
-  width: 85%;
-}
-#preview_4 {
-  height: 95%;
-  width: 95%;
+.preview:hover {
+  opacity: 0.5;
 }
 div div a p {
-  font-size: 18px;
+  font-size: 14px;
   color: black;
   text-decoration: none;
   padding-top: 10px;
@@ -292,7 +282,7 @@ div a:visited {
   background-color: black;
   text-align: center;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
   padding: 5px;
 }
 a:hover{
@@ -306,6 +296,7 @@ a:hover{
   #box2 {
     margin-top: 25px;
     width: 500px;
+    font-size: 15px;
   }
   .project{
     margin: 50px 80px 0px 80px;
@@ -371,4 +362,38 @@ a:hover{
     border-width: 8px 16px 8px 0;
     border-color: transparent #99e4ff transparent transparent;
   }
+}
+ ul.Mylinks {
+  margin-top: -37px;
+
+}
+
+time {
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  div.footer p {
+    font-size: 12px;
+  }
+  ul.Mylinks {
+    margin-top: 20px;
+  }
+  #box1 {
+    margin-left: 0px;
+    font-size: 17px;
+    margin-top: 45px;
+  }
+  div#box2 p {
+    font-size: 12px;
+  }
+  #box2 {
+    margin-top: 0px;
+  }
+  .timeline ul li.in-view div {
+    width: 220px;
+}
+div.jobhist {
+  box-shadow: 5px 5px 5px #E8E8E8;
+
+
 }

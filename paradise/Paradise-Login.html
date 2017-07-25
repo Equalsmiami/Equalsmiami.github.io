@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+  <title>Paradise Real Estate</title>
+  <link rel="stylesheet" type="text/css" href="paradise-login.css">
+  </head>
+    <body>
+      <div class="dropdown">
+        <button onclick="listFunction()" class="dropbtn">
+          <img id="city_icon"src="mediaparadiserealestate/City Icon.png" alt="City-Icon">
+          <span id="title">Paradise Realestate</span></button>
+        <div id="myDropdown"class="dropdown-content">
+          <a href="#">Sign-In/Register</a>
+          <a href="#">Buy</a>
+          <a href="#">Rent</a>
+          <a href="#">Building Gallery</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div id="middle_section">
+          <form action="/action_page.php">
+            <div class="imgcontainer">
+              <img src="mediaparadiserealestate/user-login-icon-14.png" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+              <label><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+              <label><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <button type="submit">Login</button>
+              <input type="checkbox" checked="checked"> Remember me
+            </div>
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+           <div class="footer">
+             <p>All rights reserved &copy; Equals-Design 2017</p>
+           </div>
+            <script src="paradiserealestate.js"></script>
+    </body>
+</html>
