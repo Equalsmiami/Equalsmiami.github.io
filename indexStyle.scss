@@ -367,8 +367,16 @@ a:hover{
   }
 }
 @media screen and (max-width: 600px) {
+  #workicon {
+    margin-left: 6px;
+    margin-top: 310px;
+  }
+  #timelinetitle {
+    margin-left: 77px;
+  }
   .timeline ul li {
     margin-left: 20px;
+    margin-top: 10px;
   }
 
   .timeline ul li div {
@@ -398,7 +406,7 @@ time {
     font-size: 12px;
   }
   ul.Mylinks {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   #box1 {
     margin-left: 0px;
