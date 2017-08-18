@@ -296,7 +296,7 @@ a:hover {
     margin-top: 35%; }
 
   #project_container {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center; }
 
   #box1 {
@@ -404,7 +404,12 @@ time {
 
   .timeline ul li.in-view div {
     width: 220px; } }
-@media (min-width: 1024px) {
+@media screen and (max-width: 1280px) {
+  #project_container {
+    display: inline-flex;
+    margin: 0 -5% !important;
+    min-width: min-content; }
+
   #workicon {
     margin-top: 25%;
     margin-left: 450px; } }
@@ -499,6 +504,10 @@ img#bootstrap_logo {
   border-radius: 20%; }
 
 @media only screen and (max-width: 414px) {
+  #workicon {
+    margin-left: 0;
+    margin-top: 5%; }
+
   #box1 {
     margin-top: 12%; }
 
@@ -506,6 +515,9 @@ img#bootstrap_logo {
     flex-wrap: wrap; }
 
   div.project {
-    order: -1; } }
+    order: -1; }
+
+  div.worktitle {
+    margin-top: 75%; } }
 
 /*# sourceMappingURL=indexStyle.css.map */
