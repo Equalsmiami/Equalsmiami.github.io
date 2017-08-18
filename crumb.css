@@ -1,0 +1,87 @@
+body {
+
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+    background-color: #E1E2E1;
+}
+
+#header {
+
+    width:100%;
+    background-color: #49a7cc;
+    padding:5px;
+    height: 30px;
+}
+
+#logo {
+    font-family: 'Chelsea Market', cursive;
+    color: white;
+    float:left;
+    font-size: 145%;
+    padding: 3px 5px;
+    text-shadow: -3px 1px 2px rgba(20, 20, 20, 0.79);
+}
+
+#buttonContainer {
+
+    width:400px;
+    margin: 0 auto;
+}
+
+.toggleButton {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    float:left;
+    border: 1px solid #80d8ff;
+    padding: 4px;
+    font-size: 90%;
+    margin: 0 10px;
+    -webkit-box-shadow: -2px 3px 5px -1px rgba(0,0,0,1);
+    -moz-box-shadow: -2px 3px 5px -1px rgba(0,0,0,1);
+    box-shadow: -2px 3px 5px -1px rgba(0,0,0,1);
+    border-radius: 10%;
+}
+
+.active {
+
+    background-color: #b5ffff;
+
+}
+
+.highlightedButton {
+    background-color: #49a7cc;
+}
+
+textarea {
+    font-family: 'Droid Sans Mono', monospace;
+    resize: none;
+    border-top: none;
+    border-color: #b5ffff;
+
+}
+
+.panel {
+    float:left;
+    width: 50%;
+    border-left: none;
+}
+
+iframe {
+    border:none;
+}
+
+.hidden {
+    display: none;
+}
+#footer {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #49a7cc;
+  text-align: center;
+  color: white;
+  padding: 3px 5px;
+}

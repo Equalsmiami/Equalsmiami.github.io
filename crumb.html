@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Code Crumbs</title>
+    <link rel="stylesheet" href="crumb.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Chelsea+Market|Droid+Sans+Mono|Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        Code Crumbs
+      </div>
+
+      <div id="buttonContainer">
+        <div id="html" class="toggleButton active">HTML</div>
+        <div id="css" class="toggleButton">CSS</div>
+        <div id="javascript"class="toggleButton">JavaScript</div>
+        <div id="output" class="toggleButton active">Output</div>
+      </div>
+
+
+    </div>
+    <div id="bodyContainer">
+      <textarea id="htmlPanel" class="panel"><p id="paragraph">Hello World!</p></textarea>
+      <textarea id="cssPanel" class="panel hidden">p {color: green;}</textarea>
+      <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML = "Hello JS!";</textarea>
+      <iframe id="outputPanel" class="panel"></iframe>
+    </div>
+    <script src="cumb.js" charset="utf-8"></script>
+    <div id="footer">
+        All Rights Reserved Equals-Designs &copy; 2017
+      </div>
+  </body>
+</html>
