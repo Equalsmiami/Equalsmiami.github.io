@@ -342,28 +342,28 @@ img#bootstrap_logo {
   #workicon {
     margin-top: 165%;
     margin-bottom: 2%; } }
-@media only screen and (max-width: 767px) and (min-width: 485px) {
+@media only screen and (max-width: 768px) and (min-width: 485px) {
   #workicon {
-    margin-top: 60%;
+    margin-top: 130%;
     margin-bottom: 2%;
-    margin-left: 16%;
+    margin-left: 2%;
     width: 8%; }
 
   .container {
     width: auto; }
 
   #timelinetitle {
-    margin-top: -6%;
-    margin-left: 38%; }
+    margin-top: -8%;
+    margin-left: 31%; }
 
   .timeline ul li.in-view div {
     width: 320px; }
 
   .timeline ul li:nth-child(even) div {
-    left: -360px; }
+    left: 44px; }
 
   .project {
-    margin-left: 0%; } }
+    margin-left: 10%; } }
 @media only screen and (max-width: 1300px) and (min-width: 786px) {
   #workicon {
     margin-top: 135%;
