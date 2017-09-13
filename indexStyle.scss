@@ -6,8 +6,6 @@
   font-family: 'Raleway', sans-serif;
 }
 html {
-  margin: 0;
-  padding: 0;
   background-color: #99e4ff;
 }
 .emptycell {
@@ -19,8 +17,7 @@ html {
   position: inherit;
   height: 100px;
   width: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   border: 2px solid #DEDEDE;
   border-radius: 60px;
 }
@@ -54,19 +51,21 @@ div h1 {
   background-color: white;
 }
 div h5 {
-  margin-top: 1px;
+  margin-top: 5px;
 }
 
 #box1 {
-    /*background-color: green;*/
+    position: relative;
+    background-color: green;
     text-align: center;
     display: inline;
     width: auto;
-    margin-top: 153px;
+    margin-top: 55px;
     font-size: 28px;
     list-style-type: none;
 }
     #box2 {
+      position: relative;
       /*background-color: blue;*/
       box-sizing: border-box;
       display: block;
@@ -77,10 +76,6 @@ div h5 {
       margin-bottom: 45px;
       text-align: justify;
       font-size: 15px;
-    }
-
-    #workicon {
-      margin-top: 175%;
     }
 
 ul li a {
@@ -109,9 +104,7 @@ div p span {
   font-size: 25px;
 }
 #workicon {
-  display: grid;
-  width: 12%;
-  margin-left: -10px;
+  width: 8%;
 }
 #timelinetitle {
   display: block;
@@ -192,7 +185,7 @@ div p span {
 }
 .timeline {
   box-sizing: border-box;
-
+  display: block;
 }
 .timeline ul li::after {
   box-sizing: border-box;
@@ -230,21 +223,20 @@ div p span {
   opacity: 1;
 }
 #project_container {
-  display: flex;
-  flex-wrap: nowrap;
+  padding: 5px;
+  display: inline-block;
   position: relative;
-  justify-content: space-around;
   color: black;
   padding-bottom: 10px;
   background-color: white;
 }
 .project {
-  display: block;
-  justify-content: flex-start;
-  order: 1;
+  display: -webkit-inline-box;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .preview {
   margin-left: 20px;
@@ -358,178 +350,74 @@ img#bootstrap_logo {
   border-radius: 20%;
 }
 
+.empty.cell {
+  opacity: 0.4;
+  position: absolute;
+  margin-top: 593px;
 
-// For iPhone 5 Screen Size
-@media (min-width: 320px) {
-  #box2 {
-    padding: 10px;
+  display: block;
+  height: 80px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 381px)  {
+  div.empty.cell {
   }
-  #box1 {
-    text-align: -webkit-center;
-  }
-  #timelinetitle {
-    margin-left: 13%;
-    margin-top: -23px;
-  }
+}
+
+.container {
+  padding: 5%;
+}
+// screen 1
+@media only screen and (min-width: 320px) and (max-width: 409px) {
   #workicon {
-    margin-left: -8%;
-    margin-top: 315%
+    margin-top: 255%;
+    margin-bottom: 3%;
   }
   .timeline ul li.in-view div {
-    width: 225px;
+    width: 200px;
   }
-  .project {
+  .preview {
     margin-left: -9%;
   }
-  .timeline ul li {
-    margin-left: 5px;
-  }
 }
-// iPhone 6 Plus
-@media (min-width: 413px) {
+// screen 2
+@media only screen and (max-width: 411px) and (min-width: 350px)  {
   #workicon {
-    margin-top: 190%;
-    margin-left: 1%;
+    margin-top: 205%;
   }
-
-  #timelinetitle {
-    margin-left: 28%;
-  }
-
-  .timeline ul li {
-    margin-left: 40px;
-  }
-
-  .timeline ul li.in-view div {
-    width: 290px;
-  }
-
-  .project {
-    margin-left: -5%;
-  }
+// screen 3
 }
-  // iPad (Regular Screen Size)
-@media (min-width: 413px) {
-  #box2 {
-    display: -webkit-box;
-    width: 56%;
-    margin-left: 35%;
-  }
-
-  #box1 {
-    display: -webkit-box;
-    margin-top: -35%;
-    margin-left: -50%;
-    font-size: 25px;
-  }
-
+@media only screen and (max-width: 600px) and (min-width: 412px)  {
   #workicon {
-    width: 40px;
+    margin-top: 165%;
+    margin-bottom: 2%;
+  }
+
+}
+// screen 4
+
+@media only screen and (max-width: 1300px) and (min-width: 415px)  {
+  #workicon {
     margin-top: 45%;
-    margin-left: 27%;
+    margin-bottom: 2%;
+    margin-left: 33%;
+    width: 4%;
   }
-
-  #timelinetitle {
-    margin-left: 36%;
-  }
-
-  .timeline ul li {
-    margin-left: 350px;
-  }
-
-  .timeline ul li.in-view div {
-    width: 310px;
-  }
-  .timeline ul li:nth-child(even) div {
-    left: -332px;
-  }
-
-  .project {
-    display: inline-block;
-    margin-left: 3%;
-    margin-right: 2%;
-  }
-}
-
-// iPad Pro Media Queries
-@media (min-width: 1024px) {
-  #box1 {
-    display: -webkit-box;
-    font-size: 19px;
-    margin-top: -21%;
-    margin-left: -48%;
-  }
-  #box2 {
-    margin-left: 31%;
-  }
-  .worktitle {
-    margin-top: -18%;
-  }
-  #workicon {
-    width: 60px;
-    margin-left: 23%;
+  .container {
+    width: auto;
   }
   #timelinetitle {
-    font-size: 200%;
     margin-top: -4%;
     margin-left: 40%;
   }
-
   .timeline ul li.in-view div {
-    width: 400px;
+    width: 350px;
   }
   .timeline ul li:nth-child(even) div {
-    left: -444px;
+    left: -390px
   }
-  .timeline ul li {
-    left: 145px;
-  }
-  #project_container {
-    display: inline-block;
-    margin-left: 12%;
-  }
-}
-// media queries for laptops / desktops
-@media (max-width: 1290px) {
-  #box1 {
-    display: -webkit-box;
-    font-size: 15px;
-    margin-top: -14%;
-    margin-left: -46%;
-  }
-  #box2 {
-    margin-left: 31%;
-  }
-  .worktitle {
-    margin-top: -18%;
-  }
-  #workicon {
-    margin-top: 40%;
-    width: 60px;
-    margin-left: 24%;
-  }
-  #timelinetitle {
-    font-size: 200%;
-    margin-top: -37px;
-    margin-left: 32%;
-  }
-
-  .timeline ul li.in-view div {
-    width: 500px;
-  }
-  .timeline ul li:nth-child(even) div {
-    left: -544px;
-  }
-  .timeline ul li {
-    left: 210px;
-  }
-  #project_container {
-    display: block;
-    margin-left: 12%;
-  }
-  
   .project {
-    display: inline-block;
-    width: 100px;
+    margin-left: 10%;
   }
 }
