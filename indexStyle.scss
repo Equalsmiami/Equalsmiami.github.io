@@ -397,25 +397,51 @@ img#bootstrap_logo {
 }
 // screen 4
 
-@media only screen and (max-width: 1300px) and (min-width: 415px)  {
+@media only screen and (max-width: 767px) and (min-width: 485px)  {
   #workicon {
-    margin-top: 45%;
+    margin-top: 60%;
     margin-bottom: 2%;
-    margin-left: 33%;
-    width: 4%;
+    margin-left: 16%;
+    width: 8%;
   }
   .container {
     width: auto;
   }
   #timelinetitle {
-    margin-top: -4%;
-    margin-left: 40%;
+    margin-top: -6%;
+    margin-left: 38%;
+  }
+  .timeline ul li.in-view div {
+    width: 320px;
+  }
+  .timeline ul li:nth-child(even) div {
+  left: -360px;
+  }
+  .project {
+    margin-left: 0%;
+  }
+}
+// screen 5
+
+@media only screen and (max-width: 1300px) and (min-width: 786px)  {
+  #workicon {
+    margin-top: 135%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    width: 10%;
+  }
+  .container {
+    width: auto;
+  }
+  #timelinetitle {
+    margin-top: -8%;
+    margin-left: 30%;
   }
   .timeline ul li.in-view div {
     width: 350px;
   }
   .timeline ul li:nth-child(even) div {
-    left: -390px
+
   }
   .project {
     margin-left: 10%;
