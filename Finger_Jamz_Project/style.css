@@ -1,0 +1,137 @@
+* {
+  display: flex;
+}
+html {
+  font-size: 10px;
+  background: url(main_back.jpg) bottom center;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.drum-machine {
+  height: 1000px;
+  width: 750px;
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 47% 15%;
+  padding: 10px 10px;
+  display: block;
+  box-shadow: 6px 7px 5px rgba(183, 123, 60, 0.39);
+}
+
+.block2 {
+  height: 20%;
+  display: inline-block;
+  width: 100%;
+  margin-top: 53px;
+}
+
+h1.brand {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 40px;
+  display: inline;
+  padding: 5px;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+div.fakeLED p {
+  font-family: 'Geostar', cursive;
+  background-color: #ffffe5;
+  position: relative;
+  border: .4rem solid black;
+  border-radius: 2px;
+  padding: 15px;
+  width: 35%;
+  margin-left: 5%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  display: inline-block;
+  float: right;
+}
+.controls {
+  padding: 50px;
+  margin-top: -8%;
+}
+
+div.rec img {
+  display: inline;
+  margin-left: 24%;
+  height: 120px;
+  width: 120px;
+}
+div.play img {
+  display: inline;
+  margin-left: 129%;
+  height: 300px;
+  width: 115px;
+  margin-top: -93px;
+}
+div.clear img {
+  display: inline;
+  margin-left: 241%;
+  height: 115px;
+  width: 115px;
+}
+.block1 {
+  margin: 80px 8px;
+  display: block;
+  padding: 10px;
+}
+
+div.keys {
+  margin-top: -10%;
+}
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 180px;
+  height: 150px;
+  text-align: center;
+  color: #fefbe5;
+  background: rgba(211, 196, 180, 0.75);
+  text-shadow: 0 0 .5rem black;
+  box-shadow: 7px 7px 8px rgb(140, 140, 140);
+}
+
+.col1 {
+  display: block;
+}
+.col2 {
+  display: block;
+}
+.col3 {
+  display: block;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  margin-left: 0.5rem;
+  display: block;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.sound {
+  margin-left: 7%;
+  margin-top: 27%;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  color: black;
+}
