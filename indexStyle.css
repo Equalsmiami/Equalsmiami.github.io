@@ -19,7 +19,7 @@ body {
   position: relative;
   height: 150px;
   width: 150px;
-  margin: 10% 40% 10% 70%;
+  margin: 10% 40% 10% 82%;
   border: 2px solid #DEDEDE;
   border-radius: 60%;
   opacity: 0.8;
@@ -29,17 +29,17 @@ body {
   display: block;
   position: relative;
   text-align: left;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 200;
   margin: -4% -108% 10% 33%;
 }
 .bio {
-  font-size: 15px;
+  font-size: 25px;
   text-align: left;
   line-height: 185%;
   word-wrap: break-word;
-  width: 430px;
-  margin: 10% 10% 0% 40%;
+  width: 570px;
+  margin: 10% 10% 0% 33%;
 }
 span {
   font-family: 'Jura', sans-serif;
@@ -47,11 +47,11 @@ span {
 }
 .links {
   font-family: 'Prompt', sans-serif;
-  margin: 5% 0% -13% 80%;
+  margin: 5% 0% -13% 34%;
   text-align: left;
 }
 ul.Mylinks li a {
-  font-size: 30px;
+  font-size: 40px;
   color: black;
   text-decoration: none;
 }
@@ -67,11 +67,11 @@ ul.Mylinks li a:hover {
 
 .work-history-title {
   display: inline-flex;
-  margin-top: -18px;
+  margin-top: 25px;
   font-family: 'Quicksand', sans-serif;
 }
 .workicon {
-  margin-top: 20%;
+  margin-top: 28%;
   margin-left: 24%;
   height: 50px;
   width: 50px;
@@ -79,9 +79,9 @@ ul.Mylinks li a:hover {
 }
 h3.timelinetitle {
   display: inline-block;
-  margin-top: 22%;
+  margin-top: 31%;
   margin-bottom: auto;
-  margin-left: 1%;
+  margin-left: -9%;
   margin-right: -30%;
   font-size: 25px;
   text-align: center;
@@ -221,10 +221,11 @@ P {
   height: 50px;
   margin-top: -50px;
   background-color: black;
-  width: max-content;
+  width: 100%;
   min-width: fit-content;
-  padding: 4% 46%;
+  padding: 4% 55%;
   margin-top: 15px;
+  margin-right: 0px;
 }
 
 @media screen and (min-width: 430px) {
@@ -233,31 +234,35 @@ P {
   }
 
   .bio{
-    margin: 10% 10% 0% 13%;
+    margin: 0% 10% 14% 34%;
     width: 750px;
   }
   .Mylinks {
-    display: inline-flex;
-    margin: 0 0 20% -330%;
+    display: block;
+    margin: 0 0 0 0;
   }
   .Mylinks li {
     margin-right: 3%;
   }
   .workicon {
     margin-top: 25%;
-    margin-left: 13%;
+    margin-left: 30%;
   }
 
   h3.timelinetitle {
     margin-top: 28%;
   }
 
+  div.work-history-title {
+    margin-top: -14px;
+  }
+  
   section#jobhist.timeline ul li.in-view div{
     width:700px;
   }
 
   .timeline ul li {
-    margin: 0 15%;
+    margin: 0 0 0% 27%;
   }
 
   .multiple-items {
@@ -279,7 +284,7 @@ P {
   }
 
   p.projectname {
-    font-size: 35px;
+    font-size: 20px;
     margin-top: 5px;
     margin-left: 13%;
     width: 450px;
