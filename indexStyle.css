@@ -69,8 +69,9 @@ ul.Mylinks:visited {
   text-decoration: none;
 }
 
-ul.Mylinks:hover {
+ul.Mylinks a:hover {
   color: #b6e5fb;
+  text-decoration: none;
 }
 
 .work-history-title {
@@ -203,11 +204,12 @@ img.preview {
   margin: 10% 0% 3% 12%;
 }
 footer {
-  padding: 4% 13% 4% 13%;
+  padding: 2% 13% 2% 13%;
   background-color: black;
   color: white;
   text-align: center;
-  width: 41rem;
+  display: block;
+  width: 100%;
 }
 /*media queries for various devices sizes*/
 
@@ -252,9 +254,6 @@ footer {
     margin: 10px -92px 10px 144px;20px 0px 10px 152px;
   }
 
-  footer {
-    width:64rem;
-  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -315,9 +314,6 @@ footer {
     right:526px;
   }
 
-  footer {
-    width: 77rem;
-  }
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -368,15 +364,7 @@ footer {
   img.language {
     margin: 5px -169px 5px 259px;
   }
-
-  footer {
-    width: 99rem;
-  }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-  footer {
-    width: 120rem;
-  }
-}
+@media (min-width: 1200px) {}
