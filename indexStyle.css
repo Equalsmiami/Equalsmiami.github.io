@@ -211,7 +211,48 @@ footer {
   display: block;
   width: 100%;
 }
-/*media queries for various devices sizes*/
+
+
+
+/* Screen Various Android size queries */
+@media (min-width: 360px) {
+    .mainpic {
+      margin: 10% 0% 10% 27%;
+    }
+
+    .roles {
+      margin: 0% 0% 0% 4%;
+    }
+
+    .bio {
+      margin: 10% 0% 0% 8%;
+    }
+
+    ul.Mylinks {
+      margin: 10% 0% 0% 8%;
+    }
+
+    .work-history-title {
+      margin: 6% 0% 9% 9%;
+    }
+
+    .timeline ul li {
+      margin: 0 12%;
+    }
+
+    img.preview {
+      margin: 10% 0% 3% 13%;
+    }
+
+    div.multiple-items a p {
+      margin: 0 0 0 13%;
+    }
+
+    img.language {
+      margin: 5% -7% 4% 14%;
+    }
+}
+
 
 /*Small devices (landscape phones, 635px and up)*/
 @media (min-width: 635px) {
@@ -366,17 +407,130 @@ footer {
   }
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
+/* 13" Macbook Pro Media Queries*/
+@media (min-width: 1280px) {
+  .mainpic {
+    margin: 5% 0% 0% 43%;
+  }
+
+  .bio {
+    margin: 0% 0% 0% 20%;
+  }
+
+  ul.Mylinks {
+    margin: 0% 0% 0% 17%;
+  }
+
+  .work-history-title {
+    margin: 6% 0% 3% 14%;
+  }
+
+  .timeline ul li {
+    margin: 0% 0% 0% 21%;
+  }
+
+  div.slideShowContainer {
+    display: inline-flex;
+    margin: 39px 75px;
+  }
+
+  img.preview {
+    width: 200px;
+    height: 250px;
+    margin: 0 0;
+  }
+
+  img.language {
+    margin: 11px 0px 11px 35px;
+  }
+  div.multiple-items a p {
+    margin: 0 0;
+    width:200px;
+    text-align: center;
+    font-size: 15px !important;
+  }
+
+  #box1 {
+    width: 224px;
+    margin-right: 3%;
+  }
+
+  #box2 {
+    width: 224px;
+    margin-right: 3%;
+  }
+
+  #box3 {
+    width: 224px;
+    margin-right: 3%;
+  }
+
+  #box4 {
+    width: 224px;
+    margin-right: 3%;
+  }
+
+  #box5 {
+    width: 224px;
+    margin-right: 3%;
+  }
+
+}
+/*Extra large devices (large desktops, 1920px and up)*/
 @media (min-width: 1920px) {
  .mainpic {
-  margin: auto;
+  margin: 30px auto 0px auto;
  }
- 
+
  .bio {
   margin: auto;
  }
- 
+
  ul.Mylinks {
-  margin: 0 0 0 25%;
+  margin: 0 0 0 27%;
  }
+
+  .work-history-title {
+    margin: 2% 0% 3% 24%;
+  }
+
+  .timeline ul li {
+    margin: 0% 0% 0% 26%;
+  }
+
+  .timeline ul li div {
+    width: 820px;
+  }
+div.slideShowContainer {
+  margin: 39px 0px 39px 219px;
+}
+  img.language {
+    margin: 20px 17px -24px -10px;
+  }
+
+  #box1 {
+    width: 400px;
+    margin-right: -4%;
+  }
+
+  #box2 {
+    width: 400px;
+    margin-right: -4%
+  }
+
+  #box3 {
+    width: 400px;
+    margin-right: -4%
+  }
+
+  #box4 {
+    width: 400px;
+    margin-right: -4%
+  }
+
+  #box5 {
+    width: 400px;
+    margin-right: 0%
+  }
+
 }
